@@ -1,3 +1,4 @@
 Versión 1.0 de la aplicación.
 HOTFIX: corrige error crítico en login
+HOTFIX: cambio alternativo en login (develop)
 
