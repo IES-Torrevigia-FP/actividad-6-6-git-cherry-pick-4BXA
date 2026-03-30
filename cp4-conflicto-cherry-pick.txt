@@ -1,0 +1,3 @@
+Una descripción de cómo has resuelto el conflicto y si has usado --continue o --abort.
+
+He editado app.txt y he borrado los signos de conflicto y he dejado el documento como quería y luego he usado el comando git cherry-pick --continue.

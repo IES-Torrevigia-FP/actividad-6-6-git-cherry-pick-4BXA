@@ -1,0 +1,15 @@
+abraham@abraham-VirtualBox:~/Documentos/dev/actividad-6-6-git-cherry-pick-4BXA$ git log --oneline
+fe89918 (HEAD -> main) HOTFIX: corrige error crítico en login
+33bbf30 Crea versión 1.0 de la app
+67bf795 (origin/main, origin/HEAD) add deadline
+8c0fb31 Initial commit
+
+
+abraham@abraham-VirtualBox:~/Documentos/dev/actividad-6-6-git-cherry-pick-4BXA$ cat app.txt 
+Versión 1.0 de la aplicación.
+HOTFIX: corrige error crítico en login
+
+
+Una frase explicando por qué esto es útil para aplicar hotfixes.
+
+Es útil porque permite llevar cambios específicos y críticos a una rama sin necesidad de mezclar todos los demás cambios.

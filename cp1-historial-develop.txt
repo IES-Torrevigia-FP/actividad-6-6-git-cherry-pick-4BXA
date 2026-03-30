@@ -1,0 +1,10 @@
+abraham@abraham-VirtualBox:~/Documentos/dev/actividad-6-6-git-cherry-pick-4BXA$ git log --oneline --all
+db1ff0f (HEAD -> develop) HOTFIX: corrige error crítico en login
+67cac01 Añade funcionalidad B en develop
+87fae64 Añade funcionalidad A en develop
+33bbf30 (main) Crea versión 1.0 de la app
+67bf795 (origin/main, origin/HEAD) add deadline
+8c0fb31 Initial commit
+
+
+Se quiere hacer el cherry-pick en el commit "HOTFIX: corrige error crítico en login"

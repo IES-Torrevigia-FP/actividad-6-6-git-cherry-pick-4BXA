@@ -1,0 +1,23 @@
+abraham@abraham-VirtualBox:~/Documentos/dev/actividad-6-6-git-cherry-pick-4BXA$ git log --oneline
+ba5355e (HEAD -> test) HOTFIX: corrige error crítico en login, en test
+6e62255 Añade funcionalidad B en test
+fe89918 (main) HOTFIX: corrige error crítico en login
+33bbf30 Crea versión 1.0 de la app
+67bf795 (origin/main, origin/HEAD) add deadline
+8c0fb31 Initial commit
+
+
+abraham@abraham-VirtualBox:~/Documentos/dev/actividad-6-6-git-cherry-pick-4BXA$ cat app.txt 
+Versión 1.0 de la aplicación.
+Funcionalidad B: en desarrollo
+HOTFIX: corrige error crítico en login
+
+
+Una explicación breve de la diferencia entre:
+
+    Traer una rama entera con merge.
+Trae toda la rama, incluyendo todos los commits y cambios, y los integra en la rama actual.	
+    
+    
+    Traer commits concretos con cherry-pick.
+Permite seleccionar commits específicos de otra rama y aplicarlos a la rama actual, sin traer todo el historial ni los cambios de la rama completa.
